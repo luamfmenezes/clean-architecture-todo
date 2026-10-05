@@ -4,8 +4,8 @@
 <p align="center">🚀NodeJS, Typescript, TDD, DDD, Clean architecture and SOLID</p>
   
 ## Description
+Suvery API project to stress concepts of clean architecture, hexagonal, abstraction, DDD.
 
-Clean architecture concepts
 
 ## 🎲 Runing development server.
 
@@ -57,7 +57,6 @@ $ yarn test
 * You Aren't Gonna Need It (YAGNI)
 * Keep It Simple, Silly (KISS)
 * Composition Over Inheritance
-* Small Commits
 
 ## Patterns
 
@@ -109,39 +108,5 @@ search by "Improviment:" in the code
 * Change tests from sut folder to ./__test folder.
 * Adjust files to be coveraged in tests
 * Change stub to spy, use faker on tests mock
-
-## Test patterns
-
-* .spec.ts -> unit
-* .test.ts -> integration
-
-## Docker helpful commands
-
-* docker container prune - clean all containers
-* docker run -it container-name sh
-
-## Debug api
-
-* Set sourceMap on tsconfig.
-* Create debug script
-* Create lauch.json on layer debug vscode
-
-## Tips
-
-search by "Tip:" in the code
-
-jest --passWithNoTests --silent --noStackTrace
-
---noTrackTrace -> only show expected and returned
-
---runInBand -> run test sequetial 
-
-Join commits -> git commit --amend --no-edit
-
-Revert commit -> git revert "hash"
-
-git tag -> class: 26
-
-Sut -> system under test.
 
 Stub -> Type of mock wheren you return a static value from the mock.
